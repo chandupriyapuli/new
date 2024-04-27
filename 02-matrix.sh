@@ -1,8 +1,10 @@
 #!/bin/bash
 
 # Define matrix dimensions
-rows=3
-cols=3
+echo "Enter Row Size: "
+read rows
+echo "Enter column Size: "
+read cols=
 
 # Initialize matrix as a 2D array
 declare -A matrix
