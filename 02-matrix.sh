@@ -13,6 +13,7 @@ declare -A matrix
 initialize_matrix() {
     for ((i=0; i<$rows; i++)); do
         for ((j=0; j<$cols; j++)); do
+            read -p "Enter element at position ($((i+1)),$((j+1))): " matrix[$i,$j]
             matrix[$i,$j]=$((i * $cols + j + 1))
         done
     done
