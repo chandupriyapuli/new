@@ -4,7 +4,7 @@
 echo "Enter Row Size: "
 read rows
 echo "Enter column Size: "
-read cols=
+read cols
 
 # Initialize matrix as a 2D array
 declare -A matrix
