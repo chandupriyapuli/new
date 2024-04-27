@@ -19,7 +19,7 @@ initialize_matrix() {
 print_matrix() {
     for ((i=0; i<$rows; i++)); do
         for ((j=0; j<$cols; j++)); do
-            printf "%4d " ${matrix[$i,$j]}
+            printf ${matrix[$i,$j]}
         done
         printf "\n"
     done
